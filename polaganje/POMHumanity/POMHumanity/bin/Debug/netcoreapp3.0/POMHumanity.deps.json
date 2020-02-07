@@ -1,0 +1,94 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "POMHumanity/1.0.0": {
+        "dependencies": {
+          "IronXL.Excel": "2019.5.2",
+          "Selenium.Support": "4.0.0-alpha03",
+          "Selenium.WebDriver": "4.0.0-alpha03"
+        },
+        "runtime": {
+          "POMHumanity.dll": {}
+        }
+      },
+      "IronXL.Excel/2019.5.2": {
+        "runtime": {
+          "lib/netstandard2.0/IronXL.dll": {
+            "assemblyVersion": "2019.5.2.0",
+            "fileVersion": "2019.5.2.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.2.23222"
+          }
+        }
+      },
+      "Selenium.Support/4.0.0-alpha03": {
+        "dependencies": {
+          "Selenium.WebDriver": "4.0.0-alpha03"
+        },
+        "runtime": {
+          "lib/netstandard2.0/WebDriver.Support.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Selenium.WebDriver/4.0.0-alpha03": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/WebDriver.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "POMHumanity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IronXL.Excel/2019.5.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hKZD4w84+rAQnbyjIQE1csqWTLW1oI40eXX6LItewg5PeGIrD70/dsT3WMAqCrrsQ0AQrXhbjZD7Za0MbKuD6Q==",
+      "path": "ironxl.excel/2019.5.2",
+      "hashPath": "ironxl.excel.2019.5.2.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
+      "path": "newtonsoft.json/12.0.2",
+      "hashPath": "newtonsoft.json.12.0.2.nupkg.sha512"
+    },
+    "Selenium.Support/4.0.0-alpha03": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+p9uxvllUBnvPaq4MLMgNbKJO0IRRsvEW5zaiIC/lpkxnmj7YPiLINB82MxYuk6uu6s18k2nq4tj2fzaKiV03Q==",
+      "path": "selenium.support/4.0.0-alpha03",
+      "hashPath": "selenium.support.4.0.0-alpha03.nupkg.sha512"
+    },
+    "Selenium.WebDriver/4.0.0-alpha03": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kHCOSxirWQqVtcXWVroG7E3mgrGxduJIteUwOCQk2GOad054+ePfZOeK8OizhEMTwUnkDsd9goG1ZdlzIPvkXw==",
+      "path": "selenium.webdriver/4.0.0-alpha03",
+      "hashPath": "selenium.webdriver.4.0.0-alpha03.nupkg.sha512"
+    }
+  }
+}
